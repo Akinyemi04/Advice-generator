@@ -28,6 +28,9 @@ blockquote{
   width: 58vh;
   margin-top: 13vh;
 }
+.view:hover{
+  background-color:red;
+}
 .trill{
   position:absolute;
   top:45vh;
@@ -47,10 +50,13 @@ blockquote{
     margin-left: 10vh;
   }
   .view{
+    position: absolute;
+    top:10vh;
+    left: 3vh;
     width: 10vh;
    height: 2vh; 
-   margin-top:6vh ;
-   margin-left: 10vh;
+   
+   
 
   }
   blockquote{
@@ -58,6 +64,6 @@ blockquote{
   }
   .trill{
     top:28vh;
-    left:13vh;
+    left:12vh;
   }
 }
